@@ -1,8 +1,7 @@
 import numpy as np
 import cv2
 
-#cap = cv2.VideoCapture("/data/downloads/2020-05-27_17-09-52.mp4")
-cap = cv2.VideoCapture("rtsp://192.168.1.93:554/live.sdp")
+cap = cv2.VideoCapture("test.mp4")
 ret, frame = cap.read()
 while ret:
     ret, frame = cap.read()
