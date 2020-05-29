@@ -4,7 +4,7 @@ import cv2
 face_cascade = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye_cascade = cv2.CascadeClassifier('haarcascade_eye.xml')
 
-cap = cv2.VideoCapture("rtsp://192.168.1.93:554/live.sdp")
+cap = cv2.VideoCapture("test.mp4")
 ret, frame = cap.read()
 
 while 1:
